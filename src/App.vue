@@ -1,11 +1,11 @@
 <script setup>
   import { ref } from 'vue';
 
-  const FirstName = ref('');
-  const LastName = ref('');
-  const Email = ref('');
-  const PhoneNumber = ref('');
-  const CompanyName = ref('');
+  const FirstName = ref("John");
+  const LastName = ref("Doe");
+  const Email = ref("johndoe@example.com");
+  const PhoneNumber = ref("123-456-7890");
+  const CompanyName = ref("Example Corp");
 </script>
 <template>
     <nav>
@@ -37,7 +37,6 @@ h1 {
   font-weight: 400;
   font-style: Regular;
   font-size: 25px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   background: #555552;
@@ -49,7 +48,6 @@ label {
   font-weight: 400;
   font-style: Regular;
   font-size: 12px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   background: #006315;
@@ -61,7 +59,6 @@ input {
   height: 40.31999969482422;
   top: 334.23px;
   left: 35.76px;
-  angle: 0 deg;
   opacity: 1;
   border-radius: 3.6px;
   border-width: 0.72px;
@@ -74,7 +71,6 @@ input {
   height: 34.82982635498047;
   top: 640px;
   left: 215px;
-  angle: 0 deg;
   opacity: 1;
   padding-top: 10.22px;
   padding-right: 37.5px;
